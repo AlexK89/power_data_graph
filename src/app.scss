@@ -1,0 +1,23 @@
+.chart_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .time_line {
+        width: 100%;
+        min-height: 80px;
+        padding: 1em;
+        background-color: #0099ff;
+        margin-bottom: 2em;
+        display: flex;
+        align-items: center;
+
+        &__item {
+            background-color: #a13cff;
+            color: #fff;
+            padding: 0.5em 2.5em;
+            border: none;
+            border-radius: 4px;
+        }
+    }
+}
